@@ -24,7 +24,7 @@
 <br />
 
 <div align="center">
-[Watch the Demo Video](https://drive.google.com/file/d/1U_y1jkt5GCaWyB7WhPh3ZeanzStm4TUV/view?usp=sharing)
+(Watch the Demo Video: https://drive.google.com/file/d/1U_y1jkt5GCaWyB7WhPh3ZeanzStm4TUV/view?usp=sharing)
   <br>
   <br>
   
