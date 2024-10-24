@@ -1,0 +1,28 @@
+
+main{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 200px; */
+}
+
+.card{
+    width: 50%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 200px;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+
+}

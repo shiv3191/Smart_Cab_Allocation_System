@@ -1,0 +1,27 @@
+nav{
+    margin-bottom: 100px;
+}
+.xxx{
+
+    font-size: 22px;
+    margin-right: 40px;
+}
+.foot{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.text{
+    display: flex;
+    margin-bottom: 10px;
+}
+.text img{
+    height: 50px;
+}
+.text1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}

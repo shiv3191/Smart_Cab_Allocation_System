@@ -1,0 +1,26 @@
+.photo1{
+    width: 100%;
+    background: linear-gradient(rgba(105, 102, 138, 0.7),rgba(8, 3, 41, 0.7)),url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?cs=srgb&dl=abstract-background-blur-949587.jpg&fm=jpg") no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+.shiv{
+    width: 14%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.patel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+Card{
+    background-color: #888888;
+}
