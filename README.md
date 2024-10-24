@@ -34,7 +34,7 @@
     Book Your Cab and Take a Ride.
     <br />
     <br />
-    <a href="https://github.com/ANJani9web/Bus_booking_System">GITHUB REPOSITORY</a>
+    <a href="https://github.com/shiv3191/Smart_Cab_Allocation_System/blob/main/README.md">GITHUB REPOSITORY</a>
   </p>
 </div>
 
@@ -45,8 +45,6 @@
 
 > **_NOTE:_** 
 This website is currently designed for optimal viewing on laptop or desktop screens. Please avoid accessing it on mobile or tablet devices.
-
-Welcome to the Bus Booking System, your ultimate destination for hassle-free bus travel arrangements! Our platform is dedicated to providing you with a seamless experience from booking to boarding. Here's what you can expect:
  
 
 ### Features
