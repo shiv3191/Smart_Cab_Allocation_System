@@ -34,7 +34,7 @@
     Book Your Cab and Take a Ride.
     <br />
     <br />
-    <a href="https://github.com/shiv3191/Smart_Cab_Allocation_System/blob/main/README.md">GITHUB REPOSITORY</a>
+    <a href="https://github.com/shiv3191/Smart_Cab_Allocation_System">GITHUB REPOSITORY</a>
   </p>
 </div>
 
@@ -84,7 +84,7 @@ Follow these steps to set up and run Pokemania on your local machine:
 
 * Clone this repository
     ```sh
-    git clone https://github.com/ANJani9web/Bus_booking_System
+    https://github.com/shiv3191/Smart_Cab_Allocation_System.git
     ```
 #### For Client Side (Frontend):
 * Navigate to the `client` directory
@@ -355,9 +355,9 @@ const getAllPokemon = () => {
 <!-- CONTACT -->
 ## Contact
 
-Mail: [cse210001004@iiti.ac.in](cse210001004@iiti.ac.in)
+Mail: [ce220004044@iiti.ac.in](ce220004044@iiti.ac.in)
 
-Project Link: [https://github.com/ANJani9web/Bus_booking_System](https://github.com/ANJani9web/Bus_booking_System)
+Project Link: [https://github.com/shiv3191/Smart_Cab_Allocation_System](https://github.com/shiv3191/Smart_Cab_Allocation_System)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
