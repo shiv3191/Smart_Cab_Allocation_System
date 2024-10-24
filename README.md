@@ -363,19 +363,20 @@ const getAllPokemon = () => {
 ## Roadmap
 
 - [x] User/Admin Authentication
-- [x] Add new bus by Admin
-- [x] Delete and Edit bus by Admin
-- [x] Seat Booking by User
-- [x] Option to choose seat from seat Matrix
+- [x] Add new cab by Admin
+- [x] Delete and Edit cab by Admin
+- [ ] Display available cabs in sorted order based on proximity to the user (static routes)
+- [ ] Optimize cab allocation for efficient trip planning
 
 
-## Platform's users' perspective
-* Enthusiasts of travel and commuters, whether occasional travelers or frequent bus users, would utilize the Bus Booking System to streamline their journey planning and booking process. The system's user-friendly interface, comprehensive features, and efficient functionality make it an essential tool for individuals seeking convenient and reliable bus travel solutions.
 
-* The Bus Booking System functions as a centralized platform providing extensive information on various bus services, routes, and schedules. This centralized hub caters to diverse users, including commuters seeking convenient transportation options, travelers planning their journeys, and administrators managing bus operations.
+## Platform's Users' Perspective
 
-* This platform serves as a valuable resource for travelers looking to optimize their travel experience, commuters planning their daily routes, and administrators overseeing bus operations. Whether users require information on available buses, seat availability, or booking options, the Bus Booking System offers a seamless and efficient solution for all their travel needs.
+* Enthusiasts of travel and commuters, whether occasional travelers or frequent cab users, will find **CabHub** to be a valuable tool for streamlining their cab booking and trip planning. The system's user-friendly interface and efficient functionality make it an essential resource for individuals seeking convenient and reliable cab allocation services.
 
+* **CabHub** functions as a centralized platform that provides detailed information on available cabs, predefined routes, and real-time availability. It caters to a variety of users, including commuters looking for convenient transportation, travelers planning trips, and administrators managing cab operations.
+
+* The platform serves as an efficient resource for users who want to optimize their travel experience. Whether it's finding the nearest available cab, confirming trip details, or admins managing cab availability and routes, **CabHub** offers a seamless and streamlined solution for all their transportation needs.
 
 <!-- CONTACT -->
 ## Contact
