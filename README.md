@@ -24,16 +24,14 @@
 <br />
 
 <div align="center">
-  <a href="">
-    <img src="https://res.cloudinary.com/defj06zfq/image/upload/v1706442439/360_F_15537925_5qUqgBbDSQHCI5DeP7M0z88ouNIHdeKY_uucoix.jpg" alt="Logo" width="400" height="">
-  </a>
+  
   <br>
   <br>
   
-  <h1 align="center">BUS BOOKING SYSTEM</h1>
+  <h1 align="center">Cab Allocation System</h1>
 
   <p align="center">
-  A flying bus with the safest journey.
+    Book Your Cab and Take a Ride.
     <br />
     <br />
     <a href="https://github.com/ANJani9web/Bus_booking_System">GITHUB REPOSITORY</a>
