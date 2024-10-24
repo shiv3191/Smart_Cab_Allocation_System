@@ -48,14 +48,12 @@ This website is currently designed for optimal viewing on laptop or desktop scre
  
 
 ### Features
-* Explore a wide array of buses available for your journey, complete with detailed information on routes, schedules, and amenities.
-* Easily view seat availability and select your preferred seat on any bus to ensure a comfortable journey.
-Intuitive Search and Filter Options: Quickly find the bus that fits your requirements by searching based on factors like departure time, destination, and bus type.
+* Explore a Wide Range of Cabs: Discover a variety of cabs for your trip, with detailed information on routes, cab models, and estimated travel times to match your preferences.
+* Real-time Updates: Stay updated with real-time information on cab availability, estimated arrival times, and route adjustments to ensure smooth trip planning.
 * Stay informed with real-time updates on bus availability, departure times, and route changes to plan your trip effectively.
-* Rest assured that your booking is secure and protected with our advanced encryption and security measures.
-User-Friendly Interface: Our user-friendly interface makes it easy to navigate through bus options, select seats, and complete your booking with just a few clicks.
+* Secure Booking Process: Your bookings are safeguarded by advanced encryption and security protocols, ensuring a safe and reliable experience.
+* User-Friendly Interface: Enjoy a simple, intuitive interface that lets you seamlessly navigate, select your cab, and complete your booking in just a few clicks.
 
-Whether you're a frequent traveler or planning a one-time journey, the Bus Booking System is designed to meet all your transportation needs efficiently and reliably. Sit back, relax, and let us take care of your travel arrangements!
 
 
 
