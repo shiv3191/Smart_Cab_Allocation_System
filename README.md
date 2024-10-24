@@ -24,7 +24,7 @@
 <br />
 
 <div align="center">
-![DEMO VIDEO](C:\Users\shiv\Videos\Screen Recordings\Screen Recording 2024-10-25 031851.mp4)
+
   <br>
   <br>
   
