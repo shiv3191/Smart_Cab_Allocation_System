@@ -141,18 +141,31 @@ For usage and Project Demo, please checkout the [Demo Video](https://res.cloudin
 ## Walkthrough of the Platform
 
 This is a guide to Bus Booking website, featuring an initial Homepage  
-<!-- * Dashboard Overview: The platform's dashboard presents users with a comprehensive display of available buses, depicted in a user-friendly card format. Users can quickly scan through the list of buses and access detailed information about each one. 
-* Abilities refer to unique attributes or skills possessed by Pokémon, while types denote elemental characteristics. 
-* Each card on the dashboard showcases the Pokémon number, name, base experience points, and types. Upon selecting a card, users are redirected to a dedicated webpage providing in-depth information on the selected Pokémon. 
-* This information encompasses types, attributes of double damage from (vulnerabilities), attributes of double damage to (strengths), a concise two-line description, height, weight, base experience points, abilities, and the Pokémon's evolution chain. 
--->
-* Login and Signup: Users must first create an account through the signup page. Upon successful registration or login, they gain access to their profile.
-* In the Profile page, users can view their past booked buses and make new bookings for upcoming journeys.
-* When a user initiates a new bus booking, they are directed to the Booking page. Here, they must select the source, destination, and date for their upcoming journey. Buses are displayed based on Dijkstra's algorithm, which calculates the shortest distance between the source and destination. Users can then proceed to book tickets by selecting their desired number of seats.Following seat selection, users are prompted to choose seats from the bus seat matrix. Upon successful booking, users are presented with final booking information for confirmation.
-* Following seat selection, users are prompted to choose seats from the bus seat matrix. Upon successful booking, users are presented with final booking information for confirmation.
-* For administrative tasks, the admin must log in on the homepage. Upon logging in, they are redirected to the dashboard, where all registered users are listed along with their details.
-* The admin has the capability to create a new bus, specifying details such as the bus name, source, destination, total number of seats available, and the days on which the bus will operate between the specified source and destination.
-* Additionally, the admin has the authority to delete or update any bus information as needed.
+User Section:
+
+Login and Signup:
+Users must first create an account through the Signup page. After successful registration or login, they can access their profile.
+
+Profile Page:
+In the profile section, users can view past cab bookings and make new bookings for upcoming trips.
+
+Cab Booking Process:
+
+When users initiate a new cab booking, they are directed to the Booking page, where they must select the pickup location, destination, and date for their journey.
+Available cabs are displayed based on a predefined static route system (since the system doesn’t use dynamic routing via Google Maps APIs). This allows users to find the nearest available cab for their trip.
+Once the booking is confirmed, users receive detailed confirmation of their trip, including cab details and pickup time.
+Admin Section:
+
+Admin Login:
+Admins must log in from the homepage. Once logged in, they are redirected to the Admin Dashboard.
+
+Manage Cabs:
+
+In the Admin Dashboard, admins can add new cabs by specifying details such as cab name, pickup location, destination, total availability, and operational schedule.
+Despite the absence of dynamic Google Maps routing due to cost considerations, the admin can define static routes to provide reliable trip planning.
+Modify and Delete Cabs:
+
+Admins have the authority to update or delete cab information as needed, ensuring accurate and up-to-date data for users.
 
 
 ## Code Samples
