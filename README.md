@@ -141,32 +141,44 @@ For usage and Project Demo, please checkout the [Demo Video](https://res.cloudin
 ## Walkthrough of the Platform
 
 This is a guide to Bus Booking website, featuring an initial Homepage  
-User Section:
+## User Section:
 
-Login and Signup:
-Users must first create an account through the Signup page. After successful registration or login, they can access their profile.
+### Login and Signup:
+- Users must first create an account through the Signup page. 
+- After successful registration or login, users can access their profile.
 
-Profile Page:
-In the profile section, users can view past cab bookings and make new bookings for upcoming trips.
+### Profile Page:
+- In the profile section, users can view past cab bookings and make new bookings for upcoming trips.
 
-Cab Booking Process:
+### Cab Booking Process:
+- When users initiate a new cab booking, they are directed to the Booking page, where they must select:
+  - **Pickup location**
+  - **Destination**
+  - **Date** for their journey.
+- Available cabs are displayed based on a **predefined static route system** (as the system doesn’t use dynamic routing via Google Maps APIs). This allows users to find the nearest available cab for their trip.
+- Once the booking is confirmed, users receive detailed confirmation of their trip, including cab details and pickup time.
 
-When users initiate a new cab booking, they are directed to the Booking page, where they must select the pickup location, destination, and date for their journey.
-Available cabs are displayed based on a predefined static route system (since the system doesn’t use dynamic routing via Google Maps APIs). This allows users to find the nearest available cab for their trip.
-Once the booking is confirmed, users receive detailed confirmation of their trip, including cab details and pickup time.
-Admin Section:
+---
 
-Admin Login:
-Admins must log in from the homepage. Once logged in, they are redirected to the Admin Dashboard.
+## Admin Section:
 
-Manage Cabs:
+### Admin Login:
+- Admins must log in from the homepage.
+- Once logged in, they are redirected to the **Admin Dashboard**.
 
-In the Admin Dashboard, admins can add new cabs by specifying details such as cab name, pickup location, destination, total availability, and operational schedule.
-Despite the absence of dynamic Google Maps routing due to cost considerations, the admin can define static routes to provide reliable trip planning.
-Modify and Delete Cabs:
+### Manage Cabs:
+- In the Admin Dashboard, admins can add new cabs by specifying:
+  - **Cab name**
+  - **Pickup location**
+  - **Destination**
+  - **Total availability**
+  - **Operational schedule** (the days the cab operates).
+- Although dynamic Google Maps routing is not used due to cost considerations, admins define static routes for reliable trip planning.
 
-Admins have the authority to update or delete cab information as needed, ensuring accurate and up-to-date data for users.
+### Modify and Delete Cabs:
+- Admins have the authority to update or delete cab information as needed, ensuring accurate and up-to-date data for users.
 
+---
 
 ## Code Samples
 <details>
