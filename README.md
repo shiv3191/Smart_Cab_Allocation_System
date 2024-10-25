@@ -32,7 +32,7 @@
   A flying bus with the safest journey.
     <br />
     <br />
-    <a href="https://github.com/ANJani9web/Bus_booking_System">GITHUB REPOSITORY</a>
+    <a href="https://github.com/shiv3191/Smart_Cab_Allocation_System">GITHUB REPOSITORY</a>
   </p>
 </div>
 
@@ -44,18 +44,21 @@
 > **_NOTE:_** 
 This website is currently designed for optimal viewing on laptop or desktop screens. Please avoid accessing it on mobile or tablet devices.
 
-Welcome to the Bus Booking System, your ultimate destination for hassle-free bus travel arrangements! Our platform is dedicated to providing you with a seamless experience from booking to boarding. Here's what you can expect:
+
  
 
-### Features
-* Explore a wide array of buses available for your journey, complete with detailed information on routes, schedules, and amenities.
-* Easily view seat availability and select your preferred seat on any bus to ensure a comfortable journey.
-Intuitive Search and Filter Options: Quickly find the bus that fits your requirements by searching based on factors like departure time, destination, and bus type.
-* Stay informed with real-time updates on bus availability, departure times, and route changes to plan your trip effectively.
-* Rest assured that your booking is secure and protected with our advanced encryption and security measures.
-User-Friendly Interface: Our user-friendly interface makes it easy to navigate through bus options, select seats, and complete your booking with just a few clicks.
 
-Whether you're a frequent traveler or planning a one-time journey, the Bus Booking System is designed to meet all your transportation needs efficiently and reliably. Sit back, relax, and let us take care of your travel arrangements!
+
+
+
+## Features
+* **Explore a wide array of cabs**: Choose from a variety of cabs for your journey, complete with detailed information on routes and estimated travel times.
+* **Efficient cab allocation**: Quickly find the nearest available cab based on your location and route preferences.
+* **Secure Booking Process**: Rest assured that your cab bookings are safe and secure with advanced encryption and security measures.
+* **User-Friendly Interface**: Our intuitive interface allows users to navigate through cab options, select their preferred cab, and confirm bookings with just a few clicks.
+
+Whether you're a daily commuter or planning a one-time trip, **CabHub** is designed to meet all your transportation needs efficiently and reliably. Let us handle your journey while you enjoy the convenience of a smooth, well-planned ride!
+
 
 
 
@@ -86,7 +89,7 @@ Follow these steps to set up and run Pokemania on your local machine:
 
 * Clone this repository
     ```sh
-    git clone https://github.com/ANJani9web/Bus_booking_System
+    git clone https://github.com/shiv3191/Smart_Cab_Allocation_System
     ```
 #### For Client Side (Frontend):
 * Navigate to the `client` directory
@@ -142,19 +145,46 @@ For usage and Project Demo, please checkout the [Demo Video](https://res.cloudin
 
 ## Walkthrough of the Platform
 
-This is a guide to Bus Booking website, featuring an initial Homepage  
-<!-- * Dashboard Overview: The platform's dashboard presents users with a comprehensive display of available buses, depicted in a user-friendly card format. Users can quickly scan through the list of buses and access detailed information about each one. 
-* Abilities refer to unique attributes or skills possessed by Pokémon, while types denote elemental characteristics. 
-* Each card on the dashboard showcases the Pokémon number, name, base experience points, and types. Upon selecting a card, users are redirected to a dedicated webpage providing in-depth information on the selected Pokémon. 
-* This information encompasses types, attributes of double damage from (vulnerabilities), attributes of double damage to (strengths), a concise two-line description, height, weight, base experience points, abilities, and the Pokémon's evolution chain. 
--->
-* Login and Signup: Users must first create an account through the signup page. Upon successful registration or login, they gain access to their profile.
-* In the Profile page, users can view their past booked buses and make new bookings for upcoming journeys.
-* When a user initiates a new bus booking, they are directed to the Booking page. Here, they must select the source, destination, and date for their upcoming journey. Buses are displayed based on Dijkstra's algorithm, which calculates the shortest distance between the source and destination. Users can then proceed to book tickets by selecting their desired number of seats.Following seat selection, users are prompted to choose seats from the bus seat matrix. Upon successful booking, users are presented with final booking information for confirmation.
-* Following seat selection, users are prompted to choose seats from the bus seat matrix. Upon successful booking, users are presented with final booking information for confirmation.
-* For administrative tasks, the admin must log in on the homepage. Upon logging in, they are redirected to the dashboard, where all registered users are listed along with their details.
-* The admin has the capability to create a new bus, specifying details such as the bus name, source, destination, total number of seats available, and the days on which the bus will operate between the specified source and destination.
-* Additionally, the admin has the authority to delete or update any bus information as needed.
+# CabHub - Smart Cab Allocation System
+
+## User Section:
+
+### Login and Signup:
+- Users must first create an account through the Signup page. 
+- After successful registration or login, users can access their profile.
+
+### Profile Page:
+- In the profile section, users can view past cab bookings and make new bookings for upcoming trips.
+
+### Cab Booking Process:
+- When users initiate a new cab booking, they are directed to the Booking page, where they must select:
+  - **Pickup location**
+  - **Destination**
+  - **Date** for their journey.
+- Available cabs are displayed based on a **predefined static route system** (as the system doesn’t use dynamic routing via Google Maps APIs). This allows users to find the nearest available cab for their trip.
+- Once the booking is confirmed, users receive detailed confirmation of their trip, including cab details and pickup time.
+
+---
+
+## Admin Section:
+
+### Admin Login:
+- Admins must log in from the homepage.
+- Once logged in, they are redirected to the **Admin Dashboard**.
+
+### Manage Cabs:
+- In the Admin Dashboard, admins can add new cabs by specifying:
+  - **Cab name**
+  - **Pickup location**
+  - **Destination**
+  - **Total availability**
+  - **Operational schedule** (the days the cab operates).
+- Although dynamic Google Maps routing is not used due to cost considerations, admins define static routes for reliable trip planning.
+
+### Modify and Delete Cabs:
+- Admins have the authority to update or delete cab information as needed, ensuring accurate and up-to-date data for users.
+
+---
 
 
 ## Code Samples
@@ -339,25 +369,28 @@ const getAllPokemon = () => {
 <!-- ROADMAP -->
 ## Roadmap
 
+
 - [x] User/Admin Authentication
-- [x] Add new bus by Admin
-- [x] Delete and Edit bus by Admin
-- [x] Seat Booking by User
-- [x] Option to choose seat from seat Matrix
+- [x] Add new cab by Admin
+- [x] Delete and Edit cab by Admin
+- [ ] Display available cabs in sorted order based on proximity to the user (static routes)
+- [ ] Optimize cab allocation for efficient trip planning
 
 
-## Platform's users' perspective
-* Enthusiasts of travel and commuters, whether occasional travelers or frequent bus users, would utilize the Bus Booking System to streamline their journey planning and booking process. The system's user-friendly interface, comprehensive features, and efficient functionality make it an essential tool for individuals seeking convenient and reliable bus travel solutions.
 
-* The Bus Booking System functions as a centralized platform providing extensive information on various bus services, routes, and schedules. This centralized hub caters to diverse users, including commuters seeking convenient transportation options, travelers planning their journeys, and administrators managing bus operations.
+## Platform's Users' Perspective
 
-* This platform serves as a valuable resource for travelers looking to optimize their travel experience, commuters planning their daily routes, and administrators overseeing bus operations. Whether users require information on available buses, seat availability, or booking options, the Bus Booking System offers a seamless and efficient solution for all their travel needs.
+* Enthusiasts of travel and commuters, whether occasional travelers or frequent cab users, will find **CabHub** to be a valuable tool for streamlining their cab booking and trip planning. The system's user-friendly interface and efficient functionality make it an essential resource for individuals seeking convenient and reliable cab allocation services.
+
+* **CabHub** functions as a centralized platform that provides detailed information on available cabs, predefined routes, and real-time availability. It caters to a variety of users, including commuters looking for convenient transportation, travelers planning trips, and administrators managing cab operations.
+
+* The platform serves as an efficient resource for users who want to optimize their travel experience. Whether it's finding the nearest available cab, confirming trip details, or admins managing cab availability and routes, **CabHub** offers a seamless and streamlined solution for all their transportation needs.
 
 
 <!-- CONTACT -->
 ## Contact
 
-Mail: [cse210001004@iiti.ac.in](cse210001004@iiti.ac.in)
+Mail: [ce220004044@iiti.ac.in](ce220004044@iiti.ac.in)
 
 Project Link: [https://github.com/ANJani9web/Bus_booking_System](https://github.com/ANJani9web/Bus_booking_System)
 
