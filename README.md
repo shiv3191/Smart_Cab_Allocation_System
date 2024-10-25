@@ -22,6 +22,27 @@
 
 <!-- PROJECT video -->
 <br />
+# CabHub
+
+CabHub is a Smart Cab Allocation System designed to help users efficiently plan trips by selecting from available cabs registered by the admin.
+
+## Features
+
+- Admin role for registering cabs.
+- Users can view and select registered cabs.
+- Static data used due to paid API restrictions.
+
+## Prepare Note
+
+1. **Admin and User Roles**:
+   - `ce220004044@iiti.ac.in` is the **Admin**.
+   - The Admin can **register cabs** in the system.
+   - All others are **Users** and can view available cabs but cannot register or manage them.
+
+2. **Cab Registration**:
+   - Only the Admin can add cabs.
+   - Users can see and select from the registered cabs.
+
 
 <div align="center">
 (Watch the Demo Video: https://drive.google.com/file/d/1U_y1jkt5GCaWyB7WhPh3ZeanzStm4TUV/view?usp=sharing)
