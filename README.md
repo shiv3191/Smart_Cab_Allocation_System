@@ -29,7 +29,7 @@
   <h1 align="center">Smart-Cab-Allocation-System</h1>
 
   <p align="center">
-  A flying bus with the safest journey.
+  Book Your Cab and Ge your Ride.
     <br />
     <br />
     <a href="https://github.com/shiv3191/Smart_Cab_Allocation_System">GITHUB REPOSITORY</a>
