@@ -395,5 +395,5 @@ const getAllPokemon = () => {
 
 Mail: [ce220004044@iiti.ac.in](ce220004044@iiti.ac.in)
 
-Project Link: [https://github.com/ANJani9web/Bus_booking_System](https://github.com/ANJani9web/Bus_booking_System)
+Project Link: [https://github.com/shiv3191/Smart_Cab_Allocation_System](https://github.com/shiv3191/Smart_Cab_Allocation_System)
 
