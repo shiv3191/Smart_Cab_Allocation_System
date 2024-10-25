@@ -29,13 +29,16 @@
   <h1 align="center">Smart-Cab-Allocation-System</h1>
 
   <p align="center">
-  Book Your Cab and Ge your Ride.
+  Book Your Cab and Get your Ride.
     <br />
     <br />
     <a href="https://github.com/shiv3191/Smart_Cab_Allocation_System">GITHUB REPOSITORY</a>
   </p>
 </div>
 
+Only the user with the unique Email ID **ce220004044@iiti.ac.in** is designated as the admin, who has exclusive rights to register cabs in the system. All other users are assigned regular user roles.
+
+Watch the Demo Video: https://drive.google.com/file/d/1U_y1jkt5GCaWyB7WhPh3ZeanzStm4TUV/view?usp=drive_link
 
 
 <!-- ABOUT THE PROJECT -->
